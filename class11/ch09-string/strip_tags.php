@@ -21,9 +21,10 @@
 
     <?php
     $input = "This <a href='http://www.example.com/'>example</a>
- is <b>awesome</b><script>window.open('')</script>!";
-    echo strip_tags($input, "<a><b>");
-    // echo $input;
+ is <b>awesome</b><script>window.open('http://google.com','');</script>!";
+    // echo strip_tags($input, "<a><b>");
+    // echo strip_tags($input, null);
+    echo $input;
     ?>
 
 </body>

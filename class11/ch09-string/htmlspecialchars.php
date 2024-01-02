@@ -21,7 +21,7 @@
     </h4>
 
     <?php
-    $input = "I just can't &get <<enough>> of PHP!";
+    $input = "I just can't &get <<enough>> of PHP! <a href='#'>link</a>";
     echo $input;
     echo "<br>";
     echo htmlspecialchars($input);

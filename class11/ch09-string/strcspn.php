@@ -22,7 +22,7 @@
     $password = "12345";
     echo strcspn($password, "1234567890")."<br>";
     if (strcspn($password, "1234567890") == 0) {
-        echo "Password cannot consist solely of numbers!";
+        echo "Password cannot start with numbers!";
     }
     ?>
 

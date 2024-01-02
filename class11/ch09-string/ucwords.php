@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos blanditiis itaque fuga quaerat debitis, numquam deserunt voluptatum, modi nobis doloribus amet minus harum dolor magnam aperiam? Sapiente adipisci inventore commodi.
     <p>
         The ucwords() function capitalizes the first letter of each word in a string.
     </p>

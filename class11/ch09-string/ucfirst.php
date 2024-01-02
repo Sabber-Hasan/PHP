@@ -17,7 +17,7 @@
         EXAMPLE:
     </h4>
     <?php
-    $sentence = "the newest version of PHP was released today!";
+    $sentence = "lorem ipsum dolor, sit amet consectetur adipisicing elit. quos blanditiis itaque fuga quaerat debitis, numquam deserunt voluptatum, modi nobis doloribus amet minus harum dolor magnam aperiam? sapiente adipisci inventore commodi.";
     echo ucfirst($sentence);
     ?>
 

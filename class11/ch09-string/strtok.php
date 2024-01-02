@@ -33,10 +33,10 @@
         // delimiters include colon (:), vertical bar (|), and comma (,)
         $tokens = ":|,";
         $tokenized = strtok($info, $tokens);
-        // echo $tokenized; 
-        // echo strtok($tokens); 
-        // echo strtok($tokens); 
-        // echo strtok($tokens); 
+/*         echo $tokenized; 
+        echo strtok($tokens); 
+        echo strtok($tokens); 
+        echo strtok($tokens);  */
         // echo strtok($tokens); 
         // print out each element in the $tokenized array
         while ($tokenized) {

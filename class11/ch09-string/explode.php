@@ -26,6 +26,12 @@ echo $summary . "<hr>";
     $words = sizeof(explode(' ', strip_tags($summary)));
     echo "Total words in summary: $words";
     ?>
+    <hr>
+    <?php
+$line = "101,IDB,57";
+$parts = explode(",",$line);
+var_dump($parts);
+    ?>
 </body>
 
 </html>
